@@ -71,8 +71,9 @@ https://dacon.io/competitions/official/236229/overview/description
 -> 최대 세대수까지 Step 2~4 반복
 
 ## [Function] Optimize_RFC_HP
-기능: RandomForestClassifier가 학습할 Train, Test(Valid) 데이터와 HyperParameter의 Searching Area, 평가지표, GA에 필요한 Parameter 등을 입력받고<br>
-RandomForestClassifier_GA_Optimizer()를 객체로 불러와 최적화를 수행하여 최적화된 모델과 최적 HyperParameter, Score 시각화를 제공
+기능: RandomForestClassifier가 학습할 Train, Test(Valid) 데이터와 HyperParameter의 Searching Area, 평가지표, GA에 필요한 Parameter 등을 입력받고
+RandomForestClassifier_GA_Optimizer()를 객체로 불러와 최적화를 수행하여 
+최적화된 모델과 최적 HyperParameter, 매 Generation마다 Best Score 시각화를 제공
 
 - 참고설명 file: RandomForestClassifier GA HPO 작동 과정 설명 및 구현.pdf
 
